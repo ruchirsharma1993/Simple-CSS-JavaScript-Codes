@@ -1,0 +1,11 @@
+div {
+	border: 2px solid;
+	height: 200px;
+} 
+.box{
+border: 1px solid;
+}
+footer{
+position: fixed;
+bottom: 0px;
+}

@@ -1,0 +1,43 @@
+.tab {
+	float:left;
+	display:block;
+	padding:10px 20px;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+	background:green;
+	color:white;
+	width: 21%;
+	text-align: center;
+}
+
+.tab:hover {
+	background-color:#DDD;
+	color:#222;
+}
+
+
+
+h3{
+color: brown;
+text-align: center;
+}
+h4{
+color: blue;
+    font-weight: bold;
+}
+
+body  {
+background-position: center center;
+    background-image: url('../3_images/html5.jpeg');
+background-attachment:fixed;
+    background-position:center;
+     background-repeat: no-repeat;
+
+}
+footer{
+position: fixed;
+bottom: 0px;
+}
+p{
+color:#00FFFF;
+}

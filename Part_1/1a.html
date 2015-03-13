@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="1_css/1.css">
+<title>
+1.html
+
+</title>
+ <meta charset="UTF-8">
+</head>
+
+<body class="center">
+
+<form action="2.html"><br><br>
+<fieldset class="fieldset-auto-width">
+     <legend>LOGIN:</legend>
+
+	<table>
+	<tr>
+	<td>UserName:</td>
+	<td> <input type="text" required></td>
+
+	</tr>
+	<tr>
+	<td>Password: </td>
+	<td><input type="password" required pattern="(?=^.{5,8}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"></td>
+	
+</tr>
+
+<tr>
+	<td>
+		Logged in Browser: 
+	</td>
+	<td>
+		<select>
+	
+		  <option value="ie">Internet Explorer</option>
+		  <option value="fire">Firefox</option>
+		  <option value="chrome">Chrome</option>
+		  <option value="opera">Opera</option>
+	
+		  <option value="safari">Safari</option>
+		</select>
+	
+	</td>
+</tr>	
+</table>
+<input  type="submit" value="LOGIN" name="submit">
+</fieldset>
+</form>
+<footer>
+This Belongs to SCE505
+</footer>
+</body>
+
+</html>

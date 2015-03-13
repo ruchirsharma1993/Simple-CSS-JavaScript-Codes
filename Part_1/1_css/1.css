@@ -1,0 +1,38 @@
+.fieldset-auto-width {
+         display: inline-block;
+    }
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+	font-weight: bold;
+    color: white;
+} 
+
+body
+{
+    background-color: black;
+	color: white;
+}
+
+td{
+font-weight: bold;
+}
+
+table {
+
+    border-spacing: 10px ;
+} 
+
+.center {
+  
+  margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+footer{
+position: fixed;
+bottom: 0px;
+}
